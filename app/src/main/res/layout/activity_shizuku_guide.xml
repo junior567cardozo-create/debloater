@@ -14,13 +14,12 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="⚙️ Como configurar o Shizuku"
+            android:text="Como configurar o Shizuku"
             android:textColor="#FFFFFF"
             android:textSize="22sp"
             android:textStyle="bold"
             android:layout_marginBottom="20dp"/>
 
-        <!-- Passo 1 -->
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -36,12 +35,11 @@
                     android:text="Baixe o Shizuku na Play Store"
                     android:textColor="#FFFFFF" android:textSize="15sp" android:textStyle="bold"/>
                 <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                    android:text="Procure por "Shizuku" na Play Store e instale o app."
+                    android:text="Procure por Shizuku na Play Store e instale o app."
                     android:textColor="#AAAAAA" android:textSize="13sp" android:layout_marginTop="4dp"/>
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
-        <!-- Passo 2 -->
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -54,15 +52,14 @@
                     android:text="PASSO 2" android:textColor="#FF4444" android:textSize="11sp"
                     android:textStyle="bold" android:layout_marginBottom="6dp"/>
                 <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                    android:text="Ative as Opções de Desenvolvedor"
+                    android:text="Ative as Opcoes de Desenvolvedor"
                     android:textColor="#FFFFFF" android:textSize="15sp" android:textStyle="bold"/>
                 <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                    android:text="Vá em Configurações → Sobre o telefone → toque 7x em Número da versão até aparecer a mensagem de desenvolvedor ativado."
+                    android:text="Va em Configuracoes, Sobre o telefone, toque 7x em Numero da versao."
                     android:textColor="#AAAAAA" android:textSize="13sp" android:layout_marginTop="4dp"/>
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
-        <!-- Passo 3 -->
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -75,15 +72,14 @@
                     android:text="PASSO 3" android:textColor="#FF4444" android:textSize="11sp"
                     android:textStyle="bold" android:layout_marginBottom="6dp"/>
                 <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                    android:text="Ative a Depuração USB"
+                    android:text="Ative a Depuracao USB"
                     android:textColor="#FFFFFF" android:textSize="15sp" android:textStyle="bold"/>
                 <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                    android:text="Vá em Configurações → Opções de Desenvolvedor → ative Depuração USB."
+                    android:text="Va em Configuracoes, Opcoes de Desenvolvedor, ative Depuracao USB."
                     android:textColor="#AAAAAA" android:textSize="13sp" android:layout_marginTop="4dp"/>
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
-        <!-- Passo 4 -->
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -99,17 +95,16 @@
                     android:text="Inicie o Shizuku via ADB Wireless"
                     android:textColor="#FFFFFF" android:textSize="15sp" android:textStyle="bold"/>
                 <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                    android:text="Abra o Shizuku → toque em Iniciar via ADB (depuração sem fio). Siga as instruções na tela para parear."
+                    android:text="Abra o Shizuku e toque em Iniciar via ADB sem fio."
                     android:textColor="#AAAAAA" android:textSize="13sp" android:layout_marginTop="4dp"/>
                 <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                    android:text="Ou use o Termux e rode:\nadb connect 127.0.0.1:5555"
+                    android:text="Ou use o Termux: adb connect 127.0.0.1:5555"
                     android:textColor="#FF8C00"
                     android:fontFamily="monospace"
                     android:textSize="13sp" android:layout_marginTop="8dp"/>
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
-        <!-- Passo 5 -->
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -122,10 +117,10 @@
                     android:text="PASSO 5" android:textColor="#FF4444" android:textSize="11sp"
                     android:textStyle="bold" android:layout_marginBottom="6dp"/>
                 <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                    android:text="Conceda permissão ao Debloater"
+                    android:text="Conceda permissao ao Debloater"
                     android:textColor="#FFFFFF" android:textSize="15sp" android:textStyle="bold"/>
                 <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                    android:text="Toque no botão abaixo e aceite a permissão que o Shizuku vai pedir."
+                    android:text="Toque no botao abaixo e aceite a permissao que o Shizuku vai pedir."
                     android:textColor="#AAAAAA" android:textSize="13sp" android:layout_marginTop="4dp"/>
             </LinearLayout>
         </androidx.cardview.widget.CardView>
@@ -144,7 +139,7 @@
             android:id="@+id/btnRequestPermission"
             android:layout_width="match_parent"
             android:layout_height="56dp"
-            android:text="✅ Conceder permissão ao Shizuku"
+            android:text="Conceder permissao ao Shizuku"
             android:backgroundTint="#FF4444"
             android:textColor="#FFFFFF"
             android:textSize="15sp"
